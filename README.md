@@ -2,7 +2,10 @@
 
 
     Summarize the project and what problem it was solving.
-    The pwnled assignment was about implementing code into Code Composer Studio to control the LED lights on the TI-3220S LaunchPad. We did this by changing the duty cycle of the PWM (Pulse Width Modulation) signal. The uart2echo assignment, on the other hand, was about also implementing code into CSS but this time to set up a UART communication between the LaunchPad microcontroller and the terminal interface. 
+    The pwnled assignment was about implementing code into Code Composer Studio to control the LED lights
+    on the TI-3220S LaunchPad. We did this by changing the duty cycle of the PWM (Pulse Width Modulation) 
+    signal. The uart2echo assignment, on the other hand, was about also implementing code into CSS but this
+    time to set up a UART communication between the LaunchPad microcontroller and the terminal interface. 
 
     What did you do particularly well?
     I implemented both codes to handle the logic to achieve the tasks particularly well. The transitions between the LEDs responded effectively to the modifications in the PWM duty cycle. I also used modular functions for the setup of the PWM to increase readability of the code. The communication between the interface and the microchip was also successful. The UART interrupts were implmented efficiently and error handling is in place to to manage communication errors. 
